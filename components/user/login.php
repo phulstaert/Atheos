@@ -36,7 +36,7 @@
 		<i for="password" class="fas fa-eye-slash merged-icon togglePassword"></i>
 
 		<div id="login_options">
-			<label for"theme"><i class="fas fa-images"></i> <?php echo i18n("theme"); ?></label>
+			<label for="theme"><i class="fas fa-images"></i> <?php echo i18n("theme"); ?></label>
 			<select name="theme" id="theme">
 				<?php foreach ($themes as $theme) {
 					if (file_exists(THEMES."/" . $theme . "/theme.json")) {
