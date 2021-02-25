@@ -170,7 +170,7 @@
 
 			<div style="float:left; width: 48%;">
 
-				<label><?php echo i18n("Confirm Password"); ?></label>
+				<label><?php echo i18n("password_confirm"); ?></label>
 				<input type="password" name="confirm" value="<?php echo($autocomplete['confirm']); ?>">
 
 			</div>
@@ -179,9 +179,9 @@
 
 			<hr>
 
-			<label><?php echo i18n("New Project Name"); ?></label>
+			<label><?php echo i18n("project_name"); ?></label>
 			<input type="text" name="projectName" value="<?php echo($autocomplete['projectName']); ?>">
-			<label><?php echo i18n("Folder Name or Absolute Path"); ?></label>
+			<label><?php echo i18n("folderNameOrAbsolutePath"); ?></label>
 			<input type="text" name="projectPath" value="<?php echo($autocomplete['projectPath']); ?>">
 			<hr>
 			<?php
